@@ -21,7 +21,7 @@ class StudentRecord:
         return round(self.engagement_score, 2)
 
     def assign_category(self):           #this code assigns the students to the levels of engagement
-        if self.engagemnet_score >= 120:
+        if self.engagement_score >= 120:
             self.category = "High"
         elif self.engagement_score >= 80:
             self.category = "Medium"

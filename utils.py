@@ -22,15 +22,25 @@ def validate_columns(dataframe, required_columns):
     return True
 
 def clean_numeric_data(dataframe, numeric_columns):
+    """
+    This function will convert numeric columns to numbers and fill missing values with 0
+    
+    Parameters:
+        dataframe: any pandas dataframe to be cleaned
+        numeric_columns: a list of columns expected to contain numberic data
+    """
     # Loop through each column that is expected to contain numeric data.
     for column in numeric_columns:
         # Replace missing values with 0 so calculations will not fail because
         # of blank or NaN values.
-        dataframe[column] = dataframe[column].fillna(0)
-
         # Convert the column values to floats so mathematical operations can
         # be performed consistently.
-        dataframe[column] = dataframe[column].astype(float)
+        # We wrap this in a try/except to ensure the value becomes  afloat
+        try:
+            dataframe[column] = dataframe[column].fillna(0)
+            dataframe[column] = dataframe[column].astype(float)
+        except ValueError:
+            raise ValueError(f"Wrong numeric data found in the column: {column}")
 
     # Return the cleaned dataframe so it can be used later in the program.
     return dataframe

@@ -1,5 +1,9 @@
+import pandas as pd
+import pytest
+
 from student import StudentRecord
 from analyzer import ClassAnalyzer
+from utils import clean_numeric_data
 
 
 def test_calculated_score():
@@ -72,3 +76,16 @@ def test_average_score():
     # Check that the average engagement score is greater than zero
     # This confirms that the data loaded and the average calculation returned a valid value
     assert system.average_score() > 0
+
+def test_the_invalid_numeric_data():
+    """
+    Test that in the event there is invalid numeric data, it raises a ValueError
+    """
+    # Create a sample DataFrame with text in a column that should be numeric
+    data = pd.DataFrame({
+        "login_count": ["wrong_data"]
+    })
+
+    # Check that clean_numeric_data raises a ValueError for invalid numeric input
+    with pytest.raises(ValueError):    
+        clean_numeric_data(data, ["login_count"])

@@ -1,3 +1,5 @@
+import math
+
 """
 Utility functions module contains helper functions that validate and clean student engagement data
 """
@@ -67,7 +69,7 @@ def calculate_summary(scores):
     summary = {
         "minimum": min(scores),
         "maximum": max(scores),
-        "average": round(average, 2)
+        "average": math.ceil(average * 100) / 100
     }
 
     # Return the summary dictionary containing the min, max, and avg.

@@ -2,7 +2,7 @@ from student import StudentRecord
 from analyzer import ClassAnalyzer
 
 
-def testing_calculated_score():
+def test_calculated_score():
     """
     Test that engagement score is calculated correctly
     """
@@ -19,7 +19,7 @@ def testing_calculated_score():
     assert score == 120.0
 
 
-def testing_category_high():
+def test_category_high():
     """
     Test that a high score is assigned to the appropriate High category
     """
@@ -37,7 +37,7 @@ def testing_category_high():
     assert category == "High"
 
 
-def testing_category_counts():
+def test_category_counts():
     """
     Test that category counts return a dictionary with all expected categories
     """
@@ -58,7 +58,7 @@ def testing_category_counts():
     assert "Low" in counts
 
 
-def testing_average_score():
+def test_average_score():
     """
     Test that average score is greater than zero after loading data
     """

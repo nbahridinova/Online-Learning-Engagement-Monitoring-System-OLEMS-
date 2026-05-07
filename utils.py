@@ -4,8 +4,7 @@ import math
 Utility functions module contains helper functions that validate and clean student engagement data
 """
 def validate_columns(dataframe, required_columns):
-    # Create an empty list to store any required columns that are not found
-    # in the dataframe.
+    """Create an empty list to store any required columns that are not found in the dataframe."""
     missing_columns = [ ]
 
     # Check each required column name against the dataframe's existing columns.
@@ -49,8 +48,7 @@ def clean_numeric_data(dataframe, numeric_columns):
 
 
 def calculate_summary(scores):
-    # Do not allow an empty list because min, max, and avg values
-    # cannot be calculated without at least one score.
+    """Do not allow an empty list because min, max, and avg values cannot be calculated without at least one score."""
     if len(scores) == 0:
         raise ValueError("Score list cannot be empty.")
 

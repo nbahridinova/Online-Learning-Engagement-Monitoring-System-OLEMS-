@@ -71,3 +71,46 @@ Pytest file used to test scoring, categorization, analyzer logic, and invalid da
 Documentation file explaining the project, structure, setup, and team contributions.
  
 ---
+
+# Installation and Setup
+ 
+## Clone the Repository
+ git clone https://github.com/nbahridinova/Online-Learning-Engagement-Monitoring-System-OLEMS-.git
+
+
+ 
+## Navigate Into the Project Directory
+ cd Online-Learning-Engagement-Monitoring-System-OLEMS-
+
+
+ 
+## Launch Jupyter Notebook
+ jupyter notebook 
+Open:
+  main.ipynb
+ 
+---
+ 
+# Running the Project
+ 
+Run all cells in `main.ipynb` from top to bottom.
+ 
+This notebook will:
+ - Load the CSV dataset
+ - Create StudentRecord objects
+ - Calculate engagement scores
+ - Categorize students
+ - Display analytics
+ - Generate visualizations
+ 
+---
+ 
+# Running Tests
+
+Run the following command in Terminal:
+PYTHONPATH=. pytest
+ 
+Expected output:
+5 passed
+ 
+---

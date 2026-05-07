@@ -1,6 +1,6 @@
 # Online-Learning-Engagement-Monitoring-System-OLEMS-
 ## Project Overview
-The Online Learning Engagement Monitoring System (OLEMS) is a Python-based data analyzer program designed for monitoring and evaluating student engagement in an online learning platform, like Canvas. Functionally speaking, the system will read student activity data from a csv file and calculate engagement scores using different academicy activity indicators, such as quiz averages, assignment completion, etc.
+The Online Learning Engagement Monitoring System (OLEMS) is a Python-based data analyzer program designed for monitoring and evaluating student engagement in an online learning platform, like Canvas. Functionally speaking, the system will read student activity data from a csv file and calculate engagement scores using different academic activity indicators, such as quiz averages, assignment completion, etc.
  
 The program was developed using concepts learned throughout the course, including object-oriented programming (OOP), data analysis, exception handling, testing, and modular programming
  

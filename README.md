@@ -44,3 +44,30 @@ Online-Learning-Engagement-Monitoring-System-OLEMS-/
 │
 └── tests/
     └── test_project.py
+```
+
+--- 
+
+## Module Description
+### main.ipynb
+Main Jupyter Notebook used to run the project.
+ 
+### student.py
+Contains the StudentRecord class, which stores student activity data and calculates each student's engagement score and category.
+ 
+### analyzer.py
+Contains the ClassAnalyzer class, which loads data, stores StudentRecord objects, analyzes engagement results, and creates graphs.
+ 
+### utils.py
+Contains helper functions for validating columns, cleaning numeric data, and calculating summary statistics.
+ 
+### data/students.csv
+Dataset containing student engagement information.
+ 
+### tests/test_project.py
+Pytest file used to test scoring, categorization, analyzer logic, and invalid data handling.
+ 
+### README.md
+Documentation file explaining the project, structure, setup, and team contributions.
+ 
+---

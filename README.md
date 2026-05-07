@@ -114,3 +114,65 @@ Expected output:
 5 passed
  
 ---
+
+
+# Team Members
+
+- | Sebastian Castano | scastan2@stevens.edu | 20007319 |
+- | Nozanin Bahridinova | nbahridi@stevens.edu | 10468113 |
+- | Clarkston Stith | cstith@stevens.edu| 20045914 |
+
+
+---
+ 
+
+# Team Contributions
+## Nozanin Bahridinova
+- Created the main Jupyter Notebook workflow
+- Developed the StudentRecord class
+- Created the dataset
+- Added notebook visualizations
+- Managed GitHub integration and execution flow
+- Added REDAME project documentation and structure
+
+ 
+## Sebastian Castano
+- Developed pytest test cases
+- Improved the testing effectiveness
+- Added exceptions to testing
+- Added setup and test documentation
+- Added REDAME project documentation and structure
+
+ 
+## Clarkston Stith
+- Developed the ClassAnalyzer module
+- Added the exception handling with utility validation
+- Enhanced the helper functions & calculations
+- Added README project documentation and project structure
+
+ 
+---
+
+ 
+
+# Satisfied Requirements
+
+## Part 1 Requirements
+- Two meaningful classes with composition relationship
+- Multiple modules & functions
+- Matplotlib and pandas usage
+- Exception handling scenarios
+- Input/Output CSV file
+- Loops & condition statements
+- Mutable & immutable type of data
+- Overloading operator with “__str__()” and “__len__()”
+- Pytest test
+- Docstrings & meaningful comments
+ 
+
+## Part 2 Requirements
+- Enumerate
+- List comprehensions
+- Built-in math module
+- Operator overloading
+- ___name__

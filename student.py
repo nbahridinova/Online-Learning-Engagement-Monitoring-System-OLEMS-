@@ -1,7 +1,7 @@
-"""This class shows one student and stores their online activity data
+class StudentRecord:  #this class stores info for student and calculates the engagemnet level based on activity  
+    """This class shows one student and stores their online activity data
     Every StudentRecord object will keep track of the students ID, Name, # of logins, video minutes  that was watched, assigments completed, average of quizes, engagement score and engagement category level
-"""
-class StudentRecord:  #this class stores info for student and calculates the engagemnet level based on activity   
+    """
     def __init__(self, student_id, name, login_count, video_minutes, assignments_completed, quiz_average):                        #this code initializes StudentRecord with student's activity info
         self.student_id = int(student_id)  #converts student ID to integer
         self.name = name    #students name will be stored as text

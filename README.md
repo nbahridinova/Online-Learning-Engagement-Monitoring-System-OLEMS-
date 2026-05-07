@@ -182,5 +182,4 @@ Expected output:
 - Enumerate
 - List comprehensions
 - Built-in math module
-- Operator overloading
-- __name__
+- generator expression

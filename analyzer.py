@@ -84,7 +84,7 @@ class ClassAnalyzer:
             The average engagement score (float)
         """
         # Here we extract all of the engagement scores
-        scores = [student.engagement_score for student in self.students]
+        scores = list(student.engagement_score for student in self.students)
 
         summary = calculate_summary(scores)
         return summary["average"]

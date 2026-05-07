@@ -48,7 +48,7 @@ Online-Learning-Engagement-Monitoring-System-OLEMS-/
 
 --- 
 
-## Module Description
+## Module Descriptions
 ### main.ipynb
 Main Jupyter Notebook used to run the project.
  
@@ -75,19 +75,26 @@ Documentation file explaining the project, structure, setup, and team contributi
 # Installation and Setup
  
 ## Clone the Repository
+```bash
  git clone https://github.com/nbahridinova/Online-Learning-Engagement-Monitoring-System-OLEMS-.git
-
+```
 
  
 ## Navigate Into the Project Directory
+```bash
  cd Online-Learning-Engagement-Monitoring-System-OLEMS-
-
+```
 
  
 ## Launch Jupyter Notebook
- jupyter notebook 
+```bash
+ jupyter notebook
+```
+
 Open:
+```text
   main.ipynb
+```
  
 ---
  
@@ -108,24 +115,28 @@ This notebook will:
 # Running Tests
 
 Run the following command in Terminal:
+
+```bash
 PYTHONPATH=. pytest
+```
  
 Expected output:
+```text
 5 passed
- 
+```
 ---
 
 
 # Team Members
 
-- | Sebastian Castano | scastan2@stevens.edu | 20007319 |
-- | Nozanin Bahridinova | nbahridi@stevens.edu | 10468113 |
-- | Clarkston Stith | cstith@stevens.edu| 20045914 |
-
+| Name | Email | Stevens ID |
+|------|------|------|
+| Sebastian Castano | scastan2@stevens.edu | 20007319 |
+| Nozanin Bahridinova | nbahridi@stevens.edu | 10468113 |
+| Clarkston Stith | cstith@stevens.edu | 20045914 |
 
 ---
  
-
 # Team Contributions
 ## Nozanin Bahridinova
 - Created the main Jupyter Notebook workflow
@@ -133,7 +144,7 @@ Expected output:
 - Created the dataset
 - Added notebook visualizations
 - Managed GitHub integration and execution flow
-- Added REDAME project documentation and structure
+- Added README project documentation and structure
 
  
 ## Sebastian Castano
@@ -141,7 +152,7 @@ Expected output:
 - Improved the testing effectiveness
 - Added exceptions to testing
 - Added setup and test documentation
-- Added REDAME project documentation and structure
+- Added README project documentation and structure
 
  
 ## Clarkston Stith
@@ -150,10 +161,7 @@ Expected output:
 - Enhanced the helper functions & calculations
 - Added README project documentation and project structure
 
- 
 ---
-
- 
 
 # Satisfied Requirements
 

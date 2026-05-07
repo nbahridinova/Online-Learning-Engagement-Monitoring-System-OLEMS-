@@ -18,6 +18,17 @@ The program was developed using concepts learned throughout the course, includin
 - Perform automated pytest testing
 
 ---
+ 
+# Technologies Used
+ 
+- Python 3.13
+ - Jupyter Notebook
+ - pandas
+ - matplotlib
+ - pytest
+ - math module
+ 
+---
 
 ## Project Structure
 ```text
